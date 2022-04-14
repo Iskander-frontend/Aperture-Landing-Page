@@ -1,0 +1,79 @@
+@import "vars";
+@import "header";
+@import "product";
+@import "tools";
+@import "clients";
+@import "footer";
+@import "media";
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  color: $text-color;
+  background: $body-color;
+  &.active{
+    overflow: hidden;
+  }
+}
+.container{
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.btn{
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 125%;
+  background: $text-color;
+  color: $body-color;
+  padding: 0.688rem 1.25rem;
+  border-radius: 14px;
+  transition: all 0.3zs ease;
+  &:hover{
+    background: $body-color;
+    color: $text-color;
+    outline: 1px solid $text-color;
+  }
+}
+.section__heading{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%;
+  color: $body-subcolor;
+  padding-bottom: 1rem;
+}
+.section__title{
+  line-height: 110%;
+  font-size: 2.5rem;
+  //padding-bottom: 0.938rem;
+}
+.section__subtitle{
+  line-height: 130%;
+  color: $body-subcolor;
+  font-size: 1.5rem;
+}
+.desc{
+  line-height: 143%;
+  color: $body-subcolor;
+}
+.section__image1, .section__image2, .section__image3 {
+  height: 37.5rem;
+}
+.section__image1{
+    background: url("../images/section-bg1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.section__image2{
+  background: url("../images/section-bg2.jpg") no-repeat center center;
+  background-size: cover;
+}
+.section__image3{
+  background: url("../images/section-bg3.jpg") no-repeat center center;
+  background-size: cover;
+}
+.image__section-title{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%;
+}

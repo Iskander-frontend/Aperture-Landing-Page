@@ -1,0 +1,529 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\000033}}
+.header {
+  background: #000;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\000037}}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000313}}
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000318}}
+.header__link {
+  position: relative;
+  font-size: 0.938rem;
+  line-height: 130%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000322}}
+  .header__link:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    bottom: -5px;
+    left: 0;
+    transition: ease 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000332}}
+  .header__link:hover:after {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000336}}
+.hamburger {
+  display: none;
+  position: relative;
+  width: 1.875rem;
+  height: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000342}}
+.hamburger.active {
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000345}}
+.hamburger:before,
+.hamburger:after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: all 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000355}}
+.hamburger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  transition: all 0.3s;
+  background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000364}}
+.hamburger:before {
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000367}}
+.hamburger:after {
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000370}}
+.hamburger.active:before {
+  transform: rotate(45deg);
+  top: 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000374}}
+.hamburger.active:after {
+  transform: rotate(-45deg);
+  bottom: 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000378}}
+.hamburger.active span {
+  transform: scale(0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000381}}
+.header__body {
+  background: url("../images/header-bg.jpg") no-repeat bottom center;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 1.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000390}}
+.header__box {
+  max-width: 36.25rem;
+  margin: 0 auto;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000394}}
+  .header__box .section__title {
+    font-size: 3.375rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\0000398}}
+.tuning__items {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding: 2.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/header\.scss}line{font-family:\00003104}}
+.tuning__item {
+  display: flex;
+  gap: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\000033}}
+.product {
+  padding: 6.25rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\000036}}
+.product__top {
+  padding: 3.125rem 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000310}}
+.product__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000315}}
+.product__item {
+  min-height: 37.5rem;
+  max-width: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.875rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000323}}
+  .product__item:nth-child(1) {
+    background: url("../images/specialization/specialization-img1.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000326}}
+  .product__item:nth-child(2) {
+    background: url("../images/specialization/specialization-img2.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000329}}
+  .product__item:nth-child(3) {
+    background: url("../images/specialization/specialization-img3.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000332}}
+  .product__item:nth-child(4) {
+    background: url("../images/specialization/specialization-img4.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000335}}
+  .product__item .desc {
+    padding: 1rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000339}}
+.product__title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%;
+  color: #C0C0C0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000345}}
+.section__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000352}}
+.section__box {
+  max-width: 18.75rem;
+  margin-right: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/tools\.scss}line{font-family:\000034}}
+.tools {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/tools\.scss}line{font-family:\000038}}
+.tools__text {
+  padding: 9.375rem 6.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/tools\.scss}line{font-family:\0000310}}
+  .tools__text .desc {
+    padding-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/tools\.scss}line{font-family:\0000314}}
+.tool__img {
+  background: url("../images/tools-bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/clients\.scss}line{font-family:\000034}}
+.clients {
+  padding: 7.813rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/clients\.scss}line{font-family:\000037}}
+.clients__top {
+  text-align: center;
+  padding-bottom: 2.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/clients\.scss}line{font-family:\0000310}}
+  .clients__top .desc {
+    font-size: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/clients\.scss}line{font-family:\0000314}}
+.clients__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\000033}}
+.contact__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 6.25rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000310}}
+.footer {
+  padding: 6.25rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000312}}
+  .footer .desc {
+    padding-top: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000316}}
+.footer__top {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000320}}
+.footer__top-lists {
+  display: flex;
+  gap: 6.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000324}}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000329}}
+.footer__center {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000335}}
+  .footer__center .section__heading {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000338}}
+  .footer__center:after, .footer__center:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000346}}
+  .footer__center:after {
+    top: -40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000349}}
+  .footer__center:before {
+    bottom: -40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000353}}
+.footer__form {
+  display: flex;
+  justify-content: space-between;
+  min-width: 25rem;
+  position: relative;
+  background: #fff;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  border: none;
+  padding: 0.75rem 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000364}}
+  .footer__form .btn {
+    font-size: 10px;
+    background: #000;
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000370}}
+.form__text {
+  font-family: 'Poppins', sans-serif;
+  max-width: none;
+  border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000374}}
+  .form__text:focus {
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000378}}
+.form__submit {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000381}}
+.copyright {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000385}}
+.copyright__icons {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000391}}
+.copyright__link path {
+  transition: fill 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000394}}
+.copyright__link:nth-child(1):hover path {
+  fill: #1DA1F2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\0000397}}
+.copyright__link:nth-child(2):hover path {
+  fill: #e33f5f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/footer\.scss}line{font-family:\00003100}}
+.copyright__link:nth-child(3):hover path {
+  fill: #4267B2; }
+
+@media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\000034}}
+  .product__body {
+    flex-direction: column;
+    align-items: center; } }
+@media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000310}}
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0.938rem;
+    background: #000;
+    color: #fff;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000327}}
+    .header__menu.active {
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      transform: translateX(0);
+      background: #000;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000335}}
+      .header__menu.active .header__link {
+        font-size: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000340}}
+  .hamburger {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000343}}
+  .tools {
+    display: flex;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000347}}
+  .tool__img {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000350}}
+  .contact__box {
+    text-align: center; } }
+@media (max-width: 720px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000355}}
+  .clients__body {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem; } }
+@media (max-width: 540px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000362}}
+  body {
+    font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000365}}
+  .section__wrapper {
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000368}}
+  .contact__box {
+    padding: 3.125rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000371}}
+  .section__box {
+    margin-right: 0;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000375}}
+  .tuning__items {
+    justify-content: center;
+    padding: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000379}}
+  .tools__text {
+    padding: 6.25rem 1.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000382}}
+  .footer__top {
+    flex-direction: column;
+    gap: 3.125rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000386}}
+  .footer__top-lists {
+    gap: 3.125rem;
+    flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000390}}
+  .footer__center {
+    flex-direction: column;
+    gap: 1.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000394}}
+  .footer__form {
+    min-width: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\0000397}}
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/media\.scss}line{font-family:\00003102}}
+  .footer {
+    padding: 3.125rem 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\000039}}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  color: #fff;
+  background: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000314}}
+  body.active {
+    overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000318}}
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000323}}
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 125%;
+  background: #fff;
+  color: #000;
+  padding: 0.688rem 1.25rem;
+  border-radius: 14px;
+  transition: all 0.3zs ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000333}}
+  .btn:hover {
+    background: #000;
+    color: #fff;
+    outline: 1px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000339}}
+.section__heading {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%;
+  color: #C0C0C0;
+  padding-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000346}}
+.section__title {
+  line-height: 110%;
+  font-size: 2.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000351}}
+.section__subtitle {
+  line-height: 130%;
+  color: #C0C0C0;
+  font-size: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000356}}
+.desc {
+  line-height: 143%;
+  color: #C0C0C0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000360}}
+.section__image1, .section__image2, .section__image3 {
+  height: 37.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000363}}
+.section__image1 {
+  background: url("../images/section-bg1.jpg") no-repeat center center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000367}}
+.section__image2 {
+  background: url("../images/section-bg2.jpg") no-repeat center center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000371}}
+.section__image3 {
+  background: url("../images/section-bg3.jpg") no-repeat center center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/style\.scss}line{font-family:\0000375}}
+.image__section-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%; }
+
+/*# sourceMappingURL=style.css.map */

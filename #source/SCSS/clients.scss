@@ -1,0 +1,18 @@
+@import "vars";
+
+
+.clients{
+  padding: 7.813rem 0;
+}
+.clients__top{
+  text-align: center;
+  padding-bottom: 2.5rem;
+  .desc{
+    font-size: 1.5rem;
+  }
+}
+.clients__body{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

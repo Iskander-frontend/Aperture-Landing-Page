@@ -1,0 +1,65 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\000033}}
+.product {
+  padding: 6.25rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\000036}}
+.product__top {
+  padding: 3.125rem 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000310}}
+.product__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000315}}
+.product__item {
+  min-height: 37.5rem;
+  max-width: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.875rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000323}}
+  .product__item:nth-child(1) {
+    background: url("../images/specialization/specialization-img1.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000326}}
+  .product__item:nth-child(2) {
+    background: url("../images/specialization/specialization-img2.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000329}}
+  .product__item:nth-child(3) {
+    background: url("../images/specialization/specialization-img3.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000332}}
+  .product__item:nth-child(4) {
+    background: url("../images/specialization/specialization-img4.jpg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000335}}
+  .product__item .desc {
+    padding: 1rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000339}}
+.product__title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 143%;
+  color: #C0C0C0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000345}}
+.section__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Aperture\/\%23source\/SCSS\/product\.scss}line{font-family:\0000352}}
+.section__box {
+  max-width: 18.75rem;
+  margin-right: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; }
+
+/*# sourceMappingURL=product.css.map */
